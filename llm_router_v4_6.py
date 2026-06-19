@@ -10,9 +10,9 @@ import streamlit as st
 # MODEL CONFIG (HARDWARE SAFE)
 # =========================
 MODELS = {
-    "HOT": "qwen2.5:7b",
-    "WARM": "qwen2.5:14b",
-    "COLD": "qwen2.5:27b"
+    "HOT": "qwen3.6",
+    "WARM": "gemma4",
+    "COLD": "qwen3.6:27b"
 }
 
 FALLBACK = "qwen2.5:7b"
