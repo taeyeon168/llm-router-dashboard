@@ -157,7 +157,7 @@ while True:
         col2.metric("Queue HIGH", queue_high.qsize())
         col3.metric("Queue MID", queue_mid.qsize())
 
-        if not df.empty():
+        if not df.empty:
             st.subheader("📊 Execution Log")
             st.dataframe(df.tail(15))
 
